@@ -1,0 +1,50 @@
+
+
+
+.form {
+    display: flex;
+    padding: 10px;
+   
+}
+
+.inputs{
+    margin-right:10px ;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs input {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+   
+    border-radius:5px;
+    
+}
+
+
+
+.inputs .timeInput{
+    position: relative;
+    left: 5px;
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
+    text-align: center;
+}
+
+button{
+    font: inherit;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border: 1px solid #8b2488;
+    background-color: #8b2488;
+    color: white;
+    border-radius: 12px;
+    margin-right: 1rem;
+}
+
+button:hover , button:active{
+    border: 1px solid #8d488b;
+    background-color: #8d488b;
+}
